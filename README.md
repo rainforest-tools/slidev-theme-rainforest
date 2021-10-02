@@ -48,3 +48,20 @@ This theme provides the following components:
 - Edit the `example.md` and style to see the changes
 - `npm run export` to generate the preview PDF
 - `npm run screenshot` to generate the preview PNG
+
+## Integrate with [daisyUI](https://daisyui.com)
+
+```bash
+npm i daisyui
+```
+
+- [`setup/windicss.ts`](setup/windicss.ts)
+
+  ```typescript
+  import { transform } from "windicss/helpers";
+
+  export default defineWindiSetup(() => ({
+    ...,
+    plugins: [transform("daisyui")],
+  }));
+  ```

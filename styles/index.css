@@ -4,4 +4,9 @@
 
 .slidev-layout {
   @apply w-full h-full px-14 py-10 bg-base-100 text-base-content;
+  table {
+    th {
+      @apply text-base-content;
+    }
+  }
 }

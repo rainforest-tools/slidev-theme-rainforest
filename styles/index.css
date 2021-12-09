@@ -1,0 +1,7 @@
+#app {
+  @apply prose max-w-full;
+}
+
+.slidev-layout {
+  @apply w-full h-full px-14 py-10 bg-base-100 text-base-content;
+}

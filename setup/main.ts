@@ -6,6 +6,17 @@ declare module "@vue/runtime-core" {
     $themeData: string;
     $themes: string[];
     $setThemeData: (value: string) => void;
+    $slidev: {
+      nav: {
+        currentLayout: string;
+        currentPage: number;
+        total: number;
+        clicks: number;
+        go: (n: number) => void;
+        next: () => void;
+        nextSlide: () => void;
+      };
+    };
   }
 }
 

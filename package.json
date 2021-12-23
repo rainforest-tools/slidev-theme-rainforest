@@ -17,12 +17,14 @@
     "@types/node": "^16.11.10",
     "codemirror-theme-vars": "^0.1.1",
     "daisyui": "^1.16.2",
+    "lodash": "^4.17.21",
     "prism-theme-vars": "^0.2.2",
     "theme-change": "^2.0.2",
     "theme-vitesse": "^0.1.12"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.27.18"
+    "@slidev/cli": "^0.27.18",
+    "@types/lodash": "^4.14.178"
   },
   "engines": {
     "node": ">=14.0.0",

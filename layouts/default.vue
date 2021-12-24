@@ -2,12 +2,15 @@
   <div class="slidev-layout flex flex-col">
     <div
       v-if="$slots.title"
-      class="flex-shrink"
+      class="flex-shrink z-1"
       :class="[`col-span-${colsNum}`]"
     >
       <slot name="title" />
     </div>
-    <div class="grid auto-rows-auto flex-grow" :class="[gridCols, gridRows]">
+    <div
+      class="grid auto-rows-auto flex-grow flex-2 overflow-hidden"
+      :class="[gridCols, gridRows, `gap-${gap}`]"
+    >
       <div
         :key="idx"
         v-for="(item, idx) in items"
@@ -40,6 +43,10 @@ export default defineComponent({
     rows: {
       default: [1],
       type: Array,
+    },
+    gap: {
+      default: 2,
+      type: Number,
     },
   },
   setup({ colsNum, rowsNum, cols, rows }) {

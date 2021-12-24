@@ -4,6 +4,19 @@
 
 .slidev-layout {
   @apply w-full h-full px-14 py-10 bg-base-100 text-base-content;
+  h1 {
+    @apply !my-4;
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply !my-1;
+  }
+  img {
+    @apply !m-0;
+  }
   table {
     th {
       @apply text-base-content;
@@ -24,4 +37,8 @@
       }
     }
   }
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
 }

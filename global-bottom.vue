@@ -38,7 +38,7 @@ export default defineComponent({
       () => selected,
       (value) => globalProperties.$setThemeData(value)
     );
-    onMounted(() => themeChange(false));
+    onMounted(() => themeChange && themeChange(false));
     return { selected };
   },
 });

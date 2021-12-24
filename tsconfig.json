@@ -20,5 +20,6 @@
     "utils/*.js",
     "windi.config.js",
     "utils/props.ts",
+    "types/*.ts"
   ]
 }

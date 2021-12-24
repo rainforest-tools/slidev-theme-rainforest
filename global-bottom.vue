@@ -27,7 +27,6 @@ import {
   onMounted,
   getCurrentInstance,
 } from "vue";
-// @ts-ignore
 import { themeChange } from "theme-change";
 import useCurrentInstance from "./hooks/useCurrentInstance";
 

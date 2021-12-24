@@ -27,7 +27,7 @@ import {
   onMounted,
   getCurrentInstance,
 } from "vue";
-import { themeChange } from "theme-change";
+import * as themeChange from "theme-change";
 import useCurrentInstance from "./hooks/useCurrentInstance";
 
 export default defineComponent({
@@ -38,7 +38,7 @@ export default defineComponent({
       () => selected,
       (value) => globalProperties.$setThemeData(value)
     );
-    onMounted(() => themeChange && themeChange(false));
+    onMounted(() => themeChange.themeChange(false));
     return { selected };
   },
 });

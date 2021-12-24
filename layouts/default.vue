@@ -26,7 +26,7 @@ import { sum, zip, max } from "lodash";
 export default defineComponent({
   props: {
     colsNum: {
-      default: 2,
+      default: 1,
       type: Number,
     },
     rowsNum: {

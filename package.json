@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-rainforest",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "keywords": [
     "slidev-theme",
     "slidev"
@@ -23,7 +23,7 @@
     "theme-vitesse": "^0.1.12"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.27.18",
+    "@slidev/cli": "^0.27.20",
     "@types/lodash": "^4.14.178"
   },
   "engines": {

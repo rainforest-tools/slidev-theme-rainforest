@@ -15,6 +15,7 @@
         :key="idx"
         v-for="(item, idx) in items"
         :class="[`row-span-${item[1]}`]"
+        class="full flex flex-col"
       >
         <slot v-if="idx === 0" />
         <slot v-else :name="`item_${idx}`" />

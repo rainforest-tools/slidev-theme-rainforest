@@ -42,3 +42,7 @@
 .flex-center {
   @apply flex items-center justify-center;
 }
+
+.full {
+  @apply w-full h-full;
+}

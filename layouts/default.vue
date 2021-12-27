@@ -1,5 +1,5 @@
 <template>
-  <div class="slidev-layout flex flex-col">
+  <div class="flex flex-col slidev-layout">
     <div
       v-if="$slots.title"
       class="flex-shrink z-1"
@@ -8,14 +8,14 @@
       <slot name="title" />
     </div>
     <div
-      class="grid auto-rows-auto flex-grow flex-2 overflow-hidden"
+      class="grid flex-grow overflow-hidden flex-2"
       :class="[gridCols, gridRows, `gap-${gap}`]"
     >
       <div
         :key="idx"
         v-for="(item, idx) in items"
-        :class="[`row-span-${item[1]}`]"
-        class="full flex flex-col"
+        :class="[`col-span-${item[0]}`, `row-span-${item[1]}`]"
+        class="flex flex-col full"
       >
         <slot v-if="idx === 0" />
         <slot v-else :name="`item_${idx}`" />

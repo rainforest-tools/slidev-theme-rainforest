@@ -2,7 +2,7 @@ import { resolve } from "path";
 import { defineWindiSetup } from "@slidev/types";
 import { transform } from "windicss/helpers";
 // @ts-ignore
-import daisyColors from "daisyui/colors/index.js";
+import daisyColors from "daisyui/src/colors";
 import themes from "../themes.json";
 
 function range(size: number, startAt = 1) {

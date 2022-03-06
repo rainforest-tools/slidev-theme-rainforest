@@ -14,17 +14,17 @@
   "dependencies": {
     "@slidev/types": "^0.27.18",
     "@tailwindcss/typography": "^0.4.1",
+    "@types/lodash": "^4.14.178",
     "@types/node": "^16.11.10",
     "codemirror-theme-vars": "^0.1.1",
-    "daisyui": "1.16.2",
+    "daisyui": "^2.6.0",
     "lodash": "^4.17.21",
     "prism-theme-vars": "^0.2.2",
     "theme-change": "^2.0.2",
-    "theme-vitesse": "^0.1.12",
-    "@types/lodash": "^4.14.178"
+    "theme-vitesse": "^0.1.12"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.27.20"
+    "@slidev/cli": "^0.28.9"
   },
   "engines": {
     "node": ">=14.0.0",

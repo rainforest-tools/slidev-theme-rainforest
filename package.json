@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-rainforest",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "keywords": [
     "slidev-theme",
     "slidev"
@@ -24,7 +24,8 @@
     "theme-vitesse": "^0.1.12"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.28.9"
+    "@slidev/cli": "^0.28.9",
+    "cz-conventional-changelog": "^3.3.0"
   },
   "engines": {
     "node": ">=14.0.0",
@@ -40,6 +41,11 @@
         "mono": "Fira Code"
       },
       "hightlighter": "prism"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }

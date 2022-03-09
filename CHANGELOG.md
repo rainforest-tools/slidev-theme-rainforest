@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.16](https://github.com/rainforest-tools/slidev-theme-rainforest/compare/v0.0.15...v0.0.16) (2022-03-09)
+
+
+### Bug Fixes
+
+* fix bugs about esbuild ([5cc8e54](https://github.com/rainforest-tools/slidev-theme-rainforest/commit/5cc8e54433134588a82574e28a4bf231dc08b6c1))
+
 ### [0.0.15](https://github.com/rainforest-tools/slidev-theme-rainforest/compare/v0.0.14...v0.0.15) (2022-03-06)
 
 ### 0.0.14 (2022-03-06)

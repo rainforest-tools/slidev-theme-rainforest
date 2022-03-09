@@ -38,7 +38,9 @@
 		"bradlc.vscode-tailwindcss",
 		"heybourn.headwind",
 		"antfu.vite",
-		"mhutchie.git-graph"
+		"mhutchie.git-graph",
+		"antfu.slidev",
+		"MisterJ.vue-volar-extention-pack"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

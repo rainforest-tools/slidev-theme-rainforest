@@ -25,7 +25,7 @@
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
-import { zip } from "lodash";
+import * as lodash from "lodash";
 
 export default defineComponent({
   props: {
@@ -53,7 +53,7 @@ export default defineComponent({
   setup({ colsNum, rowsNum, cols, rows }) {
     const gridCols = `grid-cols-${colsNum}`;
     const gridRows = `grid-rows-${rowsNum}`;
-    const items = zip(cols, rows);
+    const items = lodash.zip(cols, rows);
     return { colsNum, rowsNum, gridCols, gridRows, items };
   },
 });
